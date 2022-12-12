@@ -1,0 +1,30 @@
+.experienciaProfesional__botones{
+    display: flex;
+
+   
+}
+.experienciaProfesional__boton{
+    border: 1px solid var(--azul);
+    width: 100px;
+    margin: 10px 5px;
+    padding: 10px;
+    color: var(--azul);
+    border-radius: 10px;
+}
+
+
+.experienciaProfesional__boton--azul{
+    background-color: var(--azul);
+    color: var(--blanco);
+}
+.experienciaProfesional__boton:hover{
+    cursor: pointer; ;
+    background-color: var(--azul);
+    color: var(--blanco);
+}
+
+.experienciaProfesional__boton--azul:hover{
+    cursor: pointer; ;
+    background-color: var(--blanco);
+    color: var(--azul);
+}

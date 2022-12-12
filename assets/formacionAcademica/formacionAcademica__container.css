@@ -1,0 +1,20 @@
+.formacionAcademica__container{ 
+   
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    align-items: center;  
+    margin-top: 20px;
+}
+.formacionAcademica__container h2{
+    text-align: center;
+}
+
+
+@media (max-width:768px){
+    .formacionAcademica__container{
+      flex-direction: column;
+      
+    }
+}

@@ -1,0 +1,13 @@
+.formulario{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: var(--celeste);
+}
+
+@media (max-width:768px){
+    .formulario{
+        padding: 0;
+    }
+}

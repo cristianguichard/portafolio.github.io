@@ -1,0 +1,7 @@
+.formulario__input{
+    margin: 10px;
+    padding: 10px;
+}
+.formulario__input--mensaje{
+    height: 100px;
+}

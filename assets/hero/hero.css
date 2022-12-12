@@ -1,0 +1,15 @@
+.hero{
+height: auto;
+}
+.hero .container{
+    display: flex;
+
+    font-size: 16px;
+    font-weight: 700;
+
+    justify-content: space-between;
+    margin: 50px 0 0 0;
+}
+.hero__parrafo, .hero__edad, .hero__nacionalidad{
+    margin-top: 10px;
+}

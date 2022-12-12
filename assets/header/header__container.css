@@ -1,0 +1,17 @@
+.header__container{
+    background-color: var(--negro);
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 2%;
+}
+
+
+@media (max-width:768px){
+    .header__container { 
+        flex-direction: column;
+        justify-content: center;
+        align-items: initial;
+     }
+    
+   }

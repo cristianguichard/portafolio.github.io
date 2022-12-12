@@ -1,0 +1,16 @@
+.formulario__boton{
+    width:50%;
+    height: 50px;
+    justify-content: center;
+    background-color: var(--negro);
+    border-radius: 10px;
+    border: 1px solid var(--blanco);
+    color: var(--blanco);
+}
+
+.formulario__boton:hover{
+    cursor: pointer;
+    background-color: var(--blanco);
+    color: var(--negro);
+}
+

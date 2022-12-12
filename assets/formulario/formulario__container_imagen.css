@@ -1,0 +1,14 @@
+.formulario__container_imagen{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    padding: 20px;
+}
+
+@media (max-width:768px) {
+    .formulario__container_imagen{
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+}

@@ -1,0 +1,9 @@
+.formulario__imagen{
+    width: 50%;
+}
+
+@media (max-width:768px) {
+    .formulario__imagen{
+     display: none;
+    } 
+}

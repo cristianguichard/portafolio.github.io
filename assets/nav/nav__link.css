@@ -1,0 +1,21 @@
+.nav__link{
+    list-style: none; 
+    text-align: center;
+    align-items: center;
+    font-size: 16px;
+    text-transform: lowercase;
+    text-decoration: none;
+    list-style: none;
+    color: var(--blanco);
+
+}
+
+.nav__link--bold{
+    font-weight: bold;
+}
+
+@media (max-width:768px){
+    .nav__link{
+        border-bottom: 1px solid var(--gris);
+    }
+}

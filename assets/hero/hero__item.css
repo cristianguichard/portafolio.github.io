@@ -1,0 +1,10 @@
+.hero__item{
+    display: flex;
+    margin: 10px 56px 0 0;
+    list-style: none;
+    font-weight: 100;
+}
+.hero__item--img{
+width: 90%;
+transform: rotate(35deg);
+}

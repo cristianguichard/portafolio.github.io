@@ -1,0 +1,15 @@
+.hero__foto{
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #cecece;
+    margin-right: 20px;
+}
+
+@media (max-width: 768px){
+    .hero__foto{
+        display: none;
+    }
+}

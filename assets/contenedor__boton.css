@@ -1,0 +1,15 @@
+.contenedor__boton{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.contenedor__boton_descarga{
+ background-color: var(--azul);
+ color: var(--blanco);
+ padding: 20px;
+ width: 200px;
+ border: none;
+}
+.contenedor__boton_descarga:hover{
+  cursor: pointer;
+}

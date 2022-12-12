@@ -1,0 +1,25 @@
+.formacion{
+    width:200px;
+    height: auto;
+
+}
+.formacion h4{
+    margin-top: 20px;
+}
+.formacion img{
+    width: 200px;
+    height: 100px;
+  
+}
+
+@media (max-width:768px) {
+    .formacion{
+        margin-top: 10px;
+    
+    }
+    .formacion img{
+        width: 200px;
+        height: 100px;
+      
+    }
+}

@@ -1,0 +1,10 @@
+.hero__lista{
+    display: flex;
+    margin: 20px;
+}
+
+@media (max-width:768px) {
+    .hero__lista{
+        flex-direction: column;
+    }
+}

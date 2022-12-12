@@ -1,0 +1,9 @@
+.nav__item{
+    justify-content: center;
+}
+
+@media (max-width:768px){
+    .nav__item{
+        justify-content: left;
+    }
+   }

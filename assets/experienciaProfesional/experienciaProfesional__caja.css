@@ -1,0 +1,31 @@
+.experienciaProfesional__caja{
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+    text-align: center;
+    justify-content: center;
+
+}
+.experienciaProfesional__caja--derecha{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    margin-top: 20px;
+}
+.experienciaProfesional__caja img{
+    width: 50%;
+    background-color: aqua ;
+}
+.experienciaProfesional__caja--derecha h2 h4{
+   text-align: left;
+}
+
+.ahorcado{
+  align-items: center;
+}
+
+@media (max-width:768px){
+    .experienciaProfesional__caja{
+      flex-wrap: wrap;
+    }
+}

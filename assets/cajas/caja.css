@@ -1,0 +1,18 @@
+.caja{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 0 10px;
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: 10px 50px;
+    flex-direction: column-reverse;
+    background-color: #FFFFFF;
+
+}
+.caja img{
+    width: 20%;
+    margin-bottom: 10px;
+}
+
